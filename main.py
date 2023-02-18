@@ -10,12 +10,12 @@ listOfVisitors = [48, 50, 52, 49, 45, 47, 49, 55, 60, 45, 50, 51, 53, 47, 60, 60
 listOfVisitors.sort()
 highest = max(listOfVisitors)
 lowest = min(listOfVisitors)
-distribution = highest-lowest
+distribution = highest - lowest
 print(f"Distribution is: {distribution}")
 
-
 import os
+
 path = os.path.normpath(os.getcwd())
-filename= "knmi_data.txt"
-full_path = os.path.join(path,filename)
+filename = "knmi_data.txt"
+full_path = os.path.join(path, filename)
 print(full_path)
